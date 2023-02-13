@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="star-stock:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>star-stock</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="star-stock-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="star-stock:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="postgresql-42.2.22" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
